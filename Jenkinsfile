@@ -23,6 +23,9 @@ pipeline {
             }
         }
         
-        
+        stage('Test') {
+            echo 'test Stage'
+
+        }
     }
 }
