@@ -24,7 +24,10 @@ pipeline {
         }
         
         stage('Test') {
-            echo 'test Stage'
+            steps{
+                echo 'Test Stage'
+
+            }
 
         }
     }
